@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Practical and safe Machine Learning for every business.">
+    <meta name="generator" content="Grapedrop">
+
+    <title>Neuron Beam</title>
+
+    <!-- Apple Stuff -->
+    <link rel="apple-touch-icon"
+        href="img/webclip.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Neuron Beam">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Neuron Beam">
+    <meta itemprop="description" content="Practical and safe Machine Learning for every business.">
+    <meta itemprop="image"
+        content="img/ogimage.jpeg">
+
+    <!-- MS Tile - for Microsoft apps-->
+    <meta name="msapplication-TileImage"
+        content="img/ogimage.jpeg">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Neuron Beam - Practical AI">
+    <meta property="og:description" content="Neuron Beam">
+    <meta property="og:image"
+        content="img/ogimage.jpeg">
+    <meta property="og:url" content="https://neuronbeam.com">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Neuron Beam - Practical AI">
+    <meta name="twitter:description" content="Neuron Beam">
+    <meta name="twitter:image"
+        content="img/ogimage.jpeg">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="icon" type="image/png"
+        href="img/favicon.png">
+
+    <script type="application/ld+json">
+    {
+        "@context":"http://schema.org",
+        "@type":"WebPage",
+        "url":"https://neuronbeam.com",
+        "description":"Practical and safe Machine Learning for every business.",
+        "name":"Neuron Beam - Practical AI",
+        "image":"img/ogimage.jpeg"
+    }
+</script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/gjs-base.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:regular&amp;subset=latin&amp;display=swap" />
+
+    <script>
+        window._formUrl = "https://grapedrop.com/form-collector/9f40657a08b0441494884b44788b392e";
+        window.__gRecapKey = "";
+        window.postJQCnt = [];
+        window.postJQ = function () {
+            window._jqloaded = 1;
+            postJQCnt.forEach(function (fn) { fn && fn() })
+        }
+    </script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+    </style>
+    <style data-css-anim>
+        [data-anim-type]:not([data-anim-done]) {
+            opacity: 0;
+        }
+    </style>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .gpd-header {
+            margin: 0;
+        }
+
+        .gpd-divider {
+            height: 3px;
+            margin: 10px 10px 10px 10px;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        #iegjgk {
+            display: none;
+        }
+
+        #iyi8s7 {
+            display: none;
+        }
+
+        .gpd-navbar {
+            width: 100%;
+        }
+
+        .gpd-navbar__menu {
+            display: none;
+        }
+
+        .gpd-navbar__item {
+            flex: 0 1 auto;
+        }
+
+        .gpd-navbar__item-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        #iqp7 {
+            padding: 0;
+            margin: 0 0 0 0;
+            position: relative;
+        }
+
+        #i4cf {
+            flex: 0 1 auto;
+            padding: 5px 5px 5px 0;
+        }
+
+        #i6cso {
+            flex: 0 1 auto;
+            color: #ffffff;
+        }
+
+        #iq1w7 {
+            align-items: center;
+            min-height: auto;
+        }
+
+        #ixmdx {
+            display: inline-block;
+            padding: 5px 5px 5px 0;
+            min-height: 50px;
+            min-width: 50px;
+        }
+
+        #ipnod {
+            color: black;
+            height: 80px;
+        }
+
+        body {
+            background-color: #000000;
+        }
+
+        #ix3lj {
+            color: #ffffff;
+            position: static;
+            height: 500px;
+            background-image: url('https://cdn.grapedrop.com/ud105627899564c84b832c691a9ba8682/4a0425299c3f45d395bdb55c3320ddb5_image-from-rawpixel-id-3250498-jpeg.jpg'), linear-gradient(to right, #0a2e3d 0%, #0b2327 24%, #08163e 70%, #02214b 100%);
+            background-repeat: repeat, repeat;
+            background-position: left top, left top;
+            background-attachment: scroll, scroll;
+            background-size: auto, auto;
+        }
+
+        #iad9c {
+            text-transform: none;
+            font-size: 72px;
+            position: static;
+            max-width: 500px;
+            color: #abdffe;
+        }
+
+        #ihpt4 {
+            padding: 0 25px 0 25px;
+            color: #ffffff;
+        }
+
+        #i1ses {
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 24px 24px 24px 24px;
+        }
+
+        #i9mf7 {
+            font-family: Open Sans, sans-serif;
+            align-self: flex-start;
+            padding: 15px 0 5px 0;
+        }
+
+        #i303x {
+            padding: 0;
+        }
+
+        #i1gq5 {
+            justify-content: space-between;
+            align-items: center;
+            min-height: auto;
+            padding: 10px 10px 10px 0;
+            font-family: Open Sans, sans-serif;
+        }
+
+        #ig4hf {
+            flex: 0 1 auto;
+        }
+
+        #i6p7v {
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            color: #000000;
+        }
+
+        #i25bl {
+            background-color: #000000;
+        }
+
+        #iyxv5 {
+            height: 100%;
+            align-items: flex-start;
+            min-height: 10px;
+            padding: 10px 0 0 0;
+        }
+
+        #im4kr {
+            background-color: #F5F5F5;
+            padding: 100px 0 100px 0;
+        }
+
+        #iyr39 {
+            font-family: Open Sans, sans-serif;
+        }
+
+        #is7es {
+            font-family: Open Sans, sans-serif;
+        }
+
+        #i2xob {
+            padding: 10px 10px 10px 0;
+        }
+
+        #i3jzt2 {
+            background-color: #000000;
+        }
+
+        #i568uy {
+            color: #ffffff;
+            font-family: Open Sans, sans-serif;
+            text-align: center;
+        }
+
+        #ivbqfm {
+            height: 3px;
+            margin: 10px 10px 10px 10px;
+        }
+
+        #iv58w4 {
+            color: #ffffff;
+        }
+
+        #iq2r7k {
+            color: #ffffff;
+        }
+
+        #i2kkud {
+            color: #ffffff;
+        }
+
+        #ivmbm {
+            margin: 0 30px 0 0;
+        }
+
+        #i42st4 {
+            background-image: url(https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyNzA1fQ);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: scroll;
+            background-size: cover;
+            padding: 100px 0 100px 0;
+        }
+
+        #iegjgk {
+            display: none;
+        }
+
+        #iyi8s7 {
+            display: none;
+        }
+
+        #ic7b1b {
+            color: #ffffff;
+            background-color: #000000;
+            font-size: large;
+        }
+
+        #icydar {
+            font-weight: 400;
+            font-family: Open Sans, sans-serif;
+        }
+
+        #im0vg5 {
+            height: 3px;
+            margin: 10px 10px 10px 10px;
+        }
+
+        #i9sxyf {
+            font-family: Open Sans, sans-serif;
+        }
+
+        #i49u4c {
+            height: 3px;
+            margin: 10px 10px 10px 10px;
+        }
+
+        #iars2k {
+            color: #000000;
+            padding: 10px 10px 10px 0;
+        }
+
+        #i5xal5 {
+            height: 0;
+            margin: 10px 10px 10px 10px;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        #ihpt4:hover {
+            text-decoration: underline;
+        }
+
+        #ispus:hover {
+            color: #ffffff;
+        }
+
+        #indol:hover {
+            color: #ffffff;
+        }
+
+        .gpd-calendly-btn-st {
+            background-color: #3c9cde;
+            color: #FFF;
+            padding: 8px 12px;
+            border: 0;
+            border-radius: 4px;
+            text-align: center;
+            font: caption;
+            cursor: pointer;
+        }
+
+        #is8y42 {
+            padding: 10px 0;
+        }
+
+        #i368ta {
+            font-family: Open Sans, sans-serif;
+            background-color: #1660a2;
+            white-space: nowrap;
+            max-width: 300px;
+            border: 1px solid #abdffe;
+        }
+
+        #i9ot7 {
+            margin: 0 30px 0 0;
+        }
+
+        #ias1f7 {
+            padding: 6px 12px 6px 12px;
+            border-radius: 4px 4px 4px 4px;
+            border: 1px solid #000000;
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+        #isga86 {
+            color: black;
+        }
+
+        .gpd-navbar {
+            width: 100%;
+        }
+
+        .gpd-navbar__menu {
+            display: none;
+        }
+
+        .gpd-navbar__item {
+            flex: 0 1 auto;
+        }
+
+        .gpd-navbar__item-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #000000;
+        }
+
+        .gpd-navbar {
+            width: 100%;
+        }
+
+        .gpd-navbar__menu {
+            display: none;
+        }
+
+        .gpd-navbar__item {
+            flex: 0 1 auto;
+        }
+
+        .gpd-navbar__item-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #000000;
+        }
+
+        .gpd-navbar {
+            width: 100%;
+        }
+
+        .gpd-navbar__menu {
+            display: none;
+        }
+
+        .gpd-navbar__item {
+            flex: 0 1 auto;
+        }
+
+        .gpd-navbar__item-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #000000;
+        }
+
+        .gpd-calendly-btn-st {
+            background-color: #3c9cde;
+            color: #FFF;
+            padding: 8px 12px;
+            border: 0;
+            border-radius: 4px;
+            text-align: center;
+            font: caption;
+            cursor: pointer;
+        }
+
+        .gpd-navbar {
+            width: 100%;
+        }
+
+        .gpd-navbar__menu {
+            display: none;
+        }
+
+        .gpd-navbar__item {
+            flex: 0 1 auto;
+        }
+
+        .gpd-navbar__item-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        #ix5blb {
+            color: #000000;
+            padding: 10px 10px 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .gpd-navbar__menu {
+                display: block;
+            }
+
+            .gpd-navbar__items {
+                display: none;
+                width: 100%;
+            }
+
+            .gpd-navbar__item {
+                flex: 1 1 100%;
+            }
+
+            .gpd-navbar__items-grid {
+                flex-wrap: wrap;
+            }
+
+            .gpd-navbar__item-link {
+                width: 100%;
+            }
+
+            #i6p7v {
+                color: #ffffff;
+            }
+
+            #iad9c {
+                font-size: 62px;
+                color: #abdffe;
+            }
+
+            #i9mf7 {
+                flex: 1 1 100%;
+            }
+
+            #im4kr {
+                padding: 100px 0 100px 0;
+            }
+
+            #i1ses:hover {
+                color: #ffffff;
+                background-color: #000000;
+            }
+
+            #ihpt4:hover {
+                color: #ffffff;
+            }
+
+            #i1ses {
+                border: 0 solid rgb(255, 255, 255);
+            }
+
+            #ihpt4 {
+                padding: 0 0 0 0;
+            }
+
+            #i368ta {
+                max-width: 250px;
+                background-color: #1660a2;
+            }
+
+            .gpd-navbar__menu {
+                display: block;
+            }
+
+            .gpd-navbar__items {
+                display: none;
+                width: 100%;
+            }
+
+            .gpd-navbar__item {
+                flex: 1 1 100%;
+            }
+
+            .gpd-navbar__items-grid {
+                flex-wrap: wrap;
+            }
+
+            .gpd-navbar__item-link {
+                width: 100%;
+            }
+
+            .gpd-navbar__menu {
+                display: block;
+            }
+
+            .gpd-navbar__items {
+                display: none;
+                width: 100%;
+            }
+
+            .gpd-navbar__item {
+                flex: 1 1 100%;
+            }
+
+            .gpd-navbar__items-grid {
+                flex-wrap: wrap;
+            }
+
+            .gpd-navbar__item-link {
+                width: 100%;
+            }
+
+            .gpd-navbar__menu {
+                display: block;
+            }
+
+            .gpd-navbar__items {
+                display: none;
+                width: 100%;
+            }
+
+            .gpd-navbar__item {
+                flex: 1 1 100%;
+            }
+
+            .gpd-navbar__items-grid {
+                flex-wrap: wrap;
+            }
+
+            .gpd-navbar__item-link {
+                width: 100%;
+            }
+
+            #ix3lj {
+                background-image: url('https://cdn.grapedrop.com/ud105627899564c84b832c691a9ba8682/4a0425299c3f45d395bdb55c3320ddb5_image-from-rawpixel-id-3250498-jpeg.jpg'), linear-gradient(to right, #09242f 0%, #0a1d24 26%, #0a1a3f 68%, #04193f 100%);
+                background-repeat: repeat, repeat;
+                background-position: left top, left top;
+                background-attachment: scroll, scroll;
+                background-size: auto, auto;
+            }
+
+            .gpd-navbar__menu {
+                display: block;
+            }
+
+            .gpd-navbar__items {
+                display: none;
+                width: 100%;
+            }
+
+            .gpd-navbar__item {
+                flex: 1 1 100%;
+            }
+
+            .gpd-navbar__items-grid {
+                flex-wrap: wrap;
+            }
+
+            .gpd-navbar__item-link {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 375px) {
+            #iad9c {
+                font-size: 52px;
+            }
+
+            #i368ta {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="i25bl" class="gpd-navbar">
+        <div id="i303x" class="gpd-container">
+            <div id="i1gq5" class="gdp-row">
+                <div id="i4cf" class="cell"><a id="ixmdx" href="//neuronbeam.com" class="gpd-link-box"><img id="ipnod"
+                            src="img/business_250x107.png" /></a>
+                </div>
+                <div id="ig4hf" class="cell gpd-navbar__menu"><a id="i6p7v" href="" class="gpd-icon"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path>
+                        </svg></a></div>
+                <div id="i6cso" class="cell gpd-navbar__items">
+                    <div id="iq1w7" class="gdp-row gpd-navbar__items-grid">
+                        <div id="ivmbm" class="cell gpd-navbar__item"><a id="indol" href="about.htm"
+                                class="gpd-navbar__item-link">About</a></div>
+                        <div id="i9ot7" class="cell gpd-navbar__item"><a id="ispus" href="safety.htm"
+                                class="gpd-navbar__item-link">Safety</a></div>
+                        <div id="i1ses" class="cell gpd-navbar__item"><a id="ihpt4" href="contact.htm"
+                                class="gpd-navbar__item-link">Contact</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="ix3lj" class="gpd-section">
+        <div id="i60je" class="gpd-container">
+            <div id="i20w" class="gpd-navbar">
+                <div id="iqp7" class="gpd-container">
+                    <h1 id="iad9c" class="gpd-header">Making AI Accessible to Every Business<br></h1>
+                </div>
+            </div>
+            <div id="iyxv5" class="gdp-row">
+                <div id="i9mf7" class="cell">
+                    <div id="is8y42">
+                        <div id="i368ta" class="gpd-calendly-btn gpd-calendly-btn-st">Schedule Appointment</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="im4kr" class="gpd-section">
+        <div id="is7es" class="gpd-container">
+            <h1 id="iyr39" class="gpd-header">Safely augment your existing business with Machine Learning</h1>
+            <div id="i2xob" class="gpd-text">It can be easy to made serious errors when implementing ML Models. We'll
+                help you navigate these pitfalls so you can safely integrate AI with your existing business processes.
+                We take data ethics seriously, we won't build anything that we feel will harm you or your customers.
+            </div>
+            <div class="card-deck"></div><a id="ias1f7" href="safety.htm" class="gpd-link">View Safety
+                Practices<br></a>
+        </div>
+    </section>
+    <section id="i42st4" class="gpd-section">
+        <div id="i8ht4i" class="gpd-container">
+            <form method="post" data-redirect="" id="i9sxyf" class="form">
+                <h1 id="icydar" class="gpd-header">Contact us</h1>
+                <div id="im0vg5" class="gpd-divider"></div><a href="tel:919-948-5570" id="ix5blb"
+                    class="gpd-link">Tel:&nbsp;<span
+                        style="color: rgb(32, 33, 36); font-family: &quot;Google Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; white-space: nowrap; display: inline !important;">919-948-5570</span></a>
+                <div id="i5xal5" class="gpd-divider"></div><a href="mailto:adam@neuronbeam.com?subject=Email"
+                    id="iars2k" class="gpd-link">Email: adam@neuronbeam.com</a>
+                <div id="i49u4c" class="gpd-divider"></div>
+                <div id="iy39f" class="form-group"><label id="it40p" class="label">Contact:</label><input type="email"
+                        placeholder="Type your email here" name="email" class="input" /></div>
+                <div id="i96pk" class="form-group"><label id="iuksv" class="label">Message:</label><textarea
+                        name="message" class="textarea"></textarea></div>
+                <div id="i6te77" class="form-group"><button type="submit" id="ic7b1b" class="button">Send</button></div>
+                <div data-form-state="success" id="iegjgk" class="state-success">Thanks! We received your request</div>
+                <div data-form-state="error" id="iyi8s7" class="state-error">An error occurred on processing your
+                    request, try again!</div>
+            </form>
+        </div>
+    </section>
+    <section id="i3jzt2" data-anim-type="fadeIn" class="gpd-section">
+        <div id="i568uy" class="gpd-container"><a id="igx0fg" href="//neuronbeam.com" class="gpd-link-box"><img
+                    id="isga86"
+                    src="img/business_250x107.png" /></a>
+            <div id="i8x5gt" class="footer-item"><a href="about.htm" id="iv58w4"
+                    class="footer-link">About</a><a href="safety.htm" id="iq2r7k"
+                    class="footer-link">Safety</a><a href="contact.htm" id="i2kkud"
+                    class="footer-link">Contact</a></div>
+            <div id="i00jn7" class="footer-item"></div>
+            <div id="ig5x7v" class="footer-item"></div>
+            <div id="ivbqfm" class="gpd-divider"></div>
+        </div>
+    </section>
+    <script>var items = document.querySelectorAll('#i6p7v');
+        for (var i = 0, len = items.length; i < len; i++) {
+            (function () {
+                var t, e = 0, n = 'gjs-collapse', r = 'max-height', o = 'ease-in-out', i = .25, a = function () { var t, e = document.createElement('void'), n = { transition: 'transitionend', OTransition: 'oTransitionEnd', MozTransition: 'transitionend', WebkitTransition: 'webkitTransitionEnd' }; for (t in n) if (void 0 !== e.style[t]) return n[t] }(), s = function (t) { e = 1; var n = function (t) { var e = window.getComputedStyle(t), n = e.display, o = parseInt(e[r]); if ('none' !== n && '0' !== o) return t.offsetHeight; t.style.height = 'auto', t.style.display = 'block', t.style.position = 'absolute', t.style.visibility = 'hidden'; var i = t.offsetHeight; return t.style.height = '', t.style.display = '', t.style.position = '', t.style.visibility = '', i }(t), a = t.style; a.display = 'block', a.transition = r + ' ' + i + 's ' + o, a.overflowY = 'hidden', '' == a[r] && (a[r] = 0), 0 == parseInt(a[r]) ? (a[r] = '0', setTimeout(function () { a[r] = n + 'px' }, 10)) : a[r] = '0' }; n in this || this.addEventListener('click', function (n) { if (n.preventDefault(), !e) { var o = this.closest('.gpd-navbar').querySelector(".gpd-navbar__items"); s(o), t || (o.addEventListener(a, function () { e = 0; var t = o.style; 0 == parseInt(t[r]) && (t.display = '', t[r] = '') }), t = 1) } }), this[n] = 1
+            }.bind(items[i]))();
+        }
+        var items = document.querySelectorAll('#is8y42');
+        for (var i = 0, len = items.length; i < len; i++) {
+            (function () {
+                var t = this, e = function () { var e = t.querySelector('.gpd-calendly-btn'), n = 'https://calendly.com/my-test', r = '#ffffff'.replace('#', ''), o = '#4d5055'.replace('#', ''), i = '#00a2ff'.replace('#', ''), a = ['' == 'true' ? 'hide_event_type_details=1' : '', r ? "background_color=".concat(r) : '', o ? "text_color=".concat(o) : '', i ? "primary_color=".concat(i) : ''].filter(function (t) { return t }).join('&'); e && e.addEventListener('click', function () { return window.Calendly.initPopupWidget({ url: "".concat(n, "?").concat(a) }) }) }; if (window.Calendly) e(); else { var n = document.createElement('link'); n.href = 'https://assets.calendly.com/assets/external/widget.css', n.rel = 'stylesheet', document.head.appendChild(n); var r = document.createElement('script'); r.src = 'https://assets.calendly.com/assets/external/widget.js', r.onload = e, document.head.appendChild(r) }
+            }.bind(items[i]))();
+        }</script>
+
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" onload="postJQ()"></script>
+    <script async src="https://grapedrop.com/js/gpd.js?id=941871ee8356f83232d3"></script>
+    <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
