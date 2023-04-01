@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Lithium",
+    "originalAmount": 17000000,
+    "consumptionRate": 0.08,
+    "unit": "metric tons",
+    "info": "used in batteries for electric vehicles and other devices",
+    "depletionYear": 2100
+  },
+  {
+    "name": "Oil",
+    "originalAmount": 2392830000000,
+    "consumptionRate": 0.02,
+    "unit": "barrels",
+    "info": "used in transportation and as a raw material for plastics",
+    "depletionYear": 2060
+  }
+]
