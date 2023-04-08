@@ -37,6 +37,7 @@ const App = () => {
       <Box mt={4} mb={4}>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <DateSlider date={date} setDate={setDate} />
+          <Box width="30px"></Box>
           <FilterDropdown resources={resourcesData} onChange={handleFilterChange} />
         </div>
       </Box>
