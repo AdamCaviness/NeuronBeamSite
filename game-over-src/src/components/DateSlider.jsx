@@ -8,7 +8,7 @@ const DateSlider = ({ date, setDate }) => (
       value={date}
       onChange={(event, newValue) => setDate(newValue)}
       min={2023}
-      max={2100}
+      max={2300}
       valueLabelDisplay="auto"
     />
   </>

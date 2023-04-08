@@ -1,18 +1,146 @@
 [
   {
     "name": "Lithium",
-    "originalAmount": 17000000,
-    "consumptionRate": 0.08,
-    "unit": "metric tons",
-    "info": "used in batteries for electric vehicles and other devices",
-    "depletionYear": 2100
+    "category": "Metals",
+    "originalAmount": 21000000,
+    "consumptionRate": 820000,
+    "unit": "metric tons per year",
+    "info": "used in batteries for electric vehicles, electronics, and energy storage",
+    "depletionYear": 2261
   },
   {
     "name": "Oil",
-    "originalAmount": 2392830000000,
-    "consumptionRate": 0.02,
-    "unit": "barrels",
-    "info": "used in transportation and as a raw material for plastics",
-    "depletionYear": 2060
+    "category": "Fossil Fuels",
+    "originalAmount": 1700000000000,
+    "consumptionRate": 35000000,
+    "unit": "barrels per day",
+    "info": "used as fuel for transportation, heating, and industrial processes",
+    "depletionYear": 2073
+  },
+  {
+    "name": "Natural Gas",
+    "category": "Fossil Fuels",
+    "originalAmount": 187000000000000,
+    "consumptionRate": 400000000000,
+    "unit": "cubic meters per year",
+    "info": "used for heating, electricity generation, and industrial processes",
+    "depletionYear": 2075
+  },
+  {
+    "name": "Coal",
+    "category": "Fossil Fuels",
+    "originalAmount": 1030000000000,
+    "consumptionRate": 8000000000,
+    "unit": "metric tons per year",
+    "info": "used for electricity generation, steel production, and other industrial processes",
+    "depletionYear": 2221
+  },
+  {
+    "name": "Copper",
+    "category": "Metals",
+    "originalAmount": 720000000,
+    "consumptionRate": 20000000,
+    "unit": "metric tons per year",
+    "info": "used in wiring, electronics, and construction",
+    "depletionYear": 2092
+  },
+  {
+    "name": "Zinc",
+    "category": "Metals",
+    "originalAmount": 230000000,
+    "consumptionRate": 13600000,
+    "unit": "metric tons per year",
+    "info": "used in galvanizing, batteries, and construction",
+    "depletionYear": 2044
+  },
+  {
+    "name": "Lead",
+    "category": "Metals",
+    "originalAmount": 89000000,
+    "consumptionRate": 4200000,
+    "unit": "metric tons per year",
+    "info": "used in batteries, radiation shielding, and construction",
+    "depletionYear": 2042
+  },
+  {
+    "name": "Silver",
+    "category": "Metals",
+    "originalAmount": 570000,
+    "consumptionRate": 27000,
+    "unit": "metric tons per year",
+    "info": "used in electronics, photography, and jewelry",
+    "depletionYear": 2043
+  },
+  {
+    "name": "Gold",
+    "category": "Metals",
+    "originalAmount": 54000,
+    "consumptionRate": 2700,
+    "unit": "metric tons per year",
+    "info": "used in electronics, jewelry, and investment",
+    "depletionYear": 2041
+  },
+  {
+    "name": "Indium",
+    "category": "Metals",
+    "originalAmount": 6000,
+    "consumptionRate": 600,
+    "unit": "metric tons per year",
+    "info": "used in flat-panel displays, solar cells, and electronics",
+    "depletionYear": 2039
+  },
+  {
+    "name": "Platinum Group Metals",
+    "category": "Metals",
+    "originalAmount": "N/A",
+    "consumptionRate": "N/A",
+    "unit": "metric tons per year",
+    "info": "used in catalytic converters, electronics, and fuel cells",
+    "depletionYear": 2173
+  },
+  {
+    "name": "Neodymium",
+    "category": "Rare Earth Elements",
+    "originalAmount": "N/A",
+    "consumptionRate": "N/A",
+    "unit": "metric tons per year",
+    "info": "used in magnets and electronics",
+    "depletionYear": 2123
+  },
+  {
+    "name": "Dysprosium",
+    "category": "Rare Earth Elements",
+    "originalAmount": "N/A",
+    "consumptionRate": "N/A",
+    "unit": "metric tons per year",
+    "info": "used in green technology and electronics",
+    "depletionYear": 2073
+  },
+  {
+    "name": "Terbium",
+    "category": "Rare Earth Elements",
+    "originalAmount": "N/A",
+    "consumptionRate": "N/A",
+    "unit": "metric tons per year",
+    "info": "used in electronics and renewable energy",
+    "depletionYear": 2078
+  },
+  {
+    "name": "Phosphorus",
+    "category": "Non-Metals",
+    "originalAmount": 22000000,
+    "consumptionRate": 200000,
+    "unit": "metric tons per year",
+    "info": "used in fertilizers, detergents, and food additives",
+    "depletionYear": 2118
+  },
+  {
+    "name": "Helium",
+    "category": "Noble Gases",
+    "originalAmount": 1000000000,
+    "consumptionRate": 5000000,
+    "unit": "cubic meters per year",
+    "info": "used in medical imaging, scientific research, and cooling systems",
+    "depletionYear": 2201
   }
 ]

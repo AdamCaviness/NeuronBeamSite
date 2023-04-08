@@ -35,8 +35,10 @@ const App = () => {
   return (
     <Container maxWidth="lg">
       <Box mt={4} mb={4}>
-        <DateSlider date={date} setDate={setDate} />
-        <FilterDropdown resources={resourcesData} onChange={handleFilterChange} />
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <DateSlider date={date} setDate={setDate} />
+          <FilterDropdown resources={resourcesData} onChange={handleFilterChange} />
+        </div>
       </Box>
       <ResourceGrid resources={visibleResources} />
     </Container>
